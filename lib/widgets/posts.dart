@@ -405,7 +405,7 @@ class Posts extends StatelessWidget {
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   image: DecorationImage(
-                                      image: AssetImage('icon/aryan.jpeg'),
+                                      image: AssetImage('icon/snow.jpeg'),
                                       fit: BoxFit.cover)),
                             ),
                           ),
@@ -414,7 +414,7 @@ class Posts extends StatelessWidget {
                           width: 10,
                         ),
                         Text(
-                          "devrajaryan",
+                          "snowthechowchow",
                           style: TextStyle(
                               fontSize: 13,
                               color: Colors.black,

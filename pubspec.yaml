@@ -54,30 +54,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - icon/icon.jpg
-    - icon/insta_text.png
-    - icon/new_post.jpg
-    - icon/message.jpg
-    - icon/home.png
-    - icon/reels.png
-    - icon/hearts.png
-    - icon/profile.jpeg
-    - icon/aryan.jpeg
-    - icon/krutik.jpeg
-    - icon/shrey.jpeg
-    - icon/menu_dot.png
-    - icon/comment.png
-    - icon/share.png
-    - icon/bookmark.png
-    - icon/heart_icon.png
-    - icon/tick.jpeg
-    - icon/lock.png
-    - icon/profile_menu.png
-    - icon/gaming.jpg
-    - icon/music.jpg
-    - icon/friends.jpeg
-    - icon/gallery.png
-    - icon/tag.png
+    - icon/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

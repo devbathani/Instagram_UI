@@ -184,6 +184,45 @@ class storysWidget extends StatelessWidget {
                 ],
               ),
             ),
+            GestureDetector(
+              onTap: () {},
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(5.0),
+                    child: Container(
+                      height: 76,
+                      width: 76,
+                      decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          gradient: LinearGradient(
+                              colors: [Color(0xffc32d65), Color(0xffe6b36d)],
+                              begin: Alignment.topRight,
+                              end: Alignment.bottomLeft)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(3.0),
+                        child: Container(
+                          height: 74,
+                          width: 74,
+                          decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: DecorationImage(
+                                  image: AssetImage('icon/gaming.jpg'),
+                                  fit: BoxFit.cover)),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Text(
+                    "Gaming",
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.black,
+                    ),
+                  )
+                ],
+              ),
+            ),
           ],
         ),
       ),
